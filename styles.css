@@ -1,0 +1,39 @@
+/* Фирменный шрифт университета — Synergy Sans.
+   Если он не установлен, браузер использует Arial. */
+body {
+    margin: 0;
+    background: white;
+    color: black;
+    font-family: "Synergy Sans", Arial, sans-serif;
+}
+
+main {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 24px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.font-example {
+    margin: 8px 0;
+}
+
+.synergy { font-family: "Synergy Sans", Arial, sans-serif; }
+.arial { font-family: Arial, sans-serif; }
+.verdana { font-family: Verdana, sans-serif; }
+.tahoma { font-family: Tahoma, sans-serif; }
+.georgia { font-family: Georgia, serif; }
+.times { font-family: "Times New Roman", serif; }
